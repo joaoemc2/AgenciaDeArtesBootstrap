@@ -67,3 +67,85 @@ a, i{
 #navbar a:hover{
   color: #c1b696;
 }
+
+/* Main image  */
+
+.main-image{
+  height: 400px;
+  background-image:url(../img/g_1.jpg) ;
+  margin-bottom: 30px;
+  position: relative; /*Para virar referencia da div filha, que vai ter posição absoluta*/
+}
+
+.main-image-info{
+  background-color: #fff;
+  padding: 25px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+
+/*Galery*/
+
+#img2{
+  background-image: url(../img/g_2.jpg);
+}
+
+#img3{
+  background-image: url(../img/g_2.jpg);
+}
+
+#img4{
+  background-image: url(../img/g_2.jpg);
+}
+
+#img5{
+  background-image: url(../img/g_2.jpg);
+}
+
+#img6{
+  background-image: url(../img/g_2.jpg);
+}
+
+#galery-container h1{
+  text-align: center;
+}
+
+#galery-conainer h1, #galery-container .col-12, #galery-container .col-md-6, #galery-container .col-xxl-4{
+  margin-bottom: 50px;
+}
+
+.small-image-container{
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+/*Footer*/
+
+footer{
+  border-top: 1px solid #ccc;
+  height: 250px;
+  padding: 30px;
+}
+
+footer i{
+  font-size: 20px;
+}
+
+#social-icons-container{
+  padding: 25px;
+}
+
+#social-icons-container div{
+  text-align: center;
+}
+
+footer p{
+  text-align: center;
+  margin: 20px;
+}
+
+a:hover i{
+  color: #c1b696;
+}
+
